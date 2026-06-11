@@ -8,7 +8,7 @@ from datetime import datetime
 
 # ─── CONFIG ───────────────────────────────────────────────
 SESSION_KEY = "COLLE_TON_SESSION_KEY_ICI"
-USAGE_URL = "https://claude.ai/api/organizations/a18ab5b5-f998-4de4-bdb0-2752c6d6c3bc/usage"
+USAGE_URL = "COLLE TON URL"
 REFRESH_MS = 60_000   # actualisation toutes les 60 s
 MEM_LIMIT_MB = 50     # seuil d'alerte mémoire
 # ──────────────────────────────────────────────────────────
