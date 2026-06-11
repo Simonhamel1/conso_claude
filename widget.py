@@ -7,8 +7,8 @@ import psutil
 from datetime import datetime
 
 # ─── CONFIG ───────────────────────────────────────────────
-SESSION_KEY = "Entrer la config"
-USAGE_URL = "entrer l'url"
+SESSION_KEY = "COLLE_TON_SESSION_KEY_ICI"
+USAGE_URL = "https://claude.ai/api/organizations/a18ab5b5-f998-4de4-bdb0-2752c6d6c3bc/usage"
 REFRESH_MS = 60_000   # actualisation toutes les 60 s
 MEM_LIMIT_MB = 50     # seuil d'alerte mémoire
 # ──────────────────────────────────────────────────────────
@@ -220,4 +220,3 @@ if __name__ == "__main__":
     if SESSION_KEY == "COLLE_TON_SESSION_KEY_ICI":
         print("Édite ce fichier et remplace SESSION_KEY par ton cookie sessionKey de claude.ai")
     else:
-        UsageWidget().run()
